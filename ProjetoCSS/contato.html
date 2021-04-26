@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anna Bella - Contato</title>
+		<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<link rel="icon"  href="imagens/favicon.png">
+
+</head>
+
+
+<body>
+
+<div id="principal">
+	
+	<img src="imagens/capa.png">
+
+	<div id="menu">
+		
+        <a href="index.html">HOME |</a>
+        <a href="biografia.html">BIOGRAFIA |</a>
+        <a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS |</a>
+        <a href="contato.html">CONTATO |</a>
+        <a href="login.html">LOGIN |</a>
+        <a href="fale-conosco.html">PEDIDO DE FOTOS</a>
+
+	</div>
+		
+		<h1>CONTATO</h1><!-- começo do conteudo -->
+
+		 <ul>
+		   <li>
+
+		<label>Assunto:</label>
+		<select name="Assunto" id="Assunto" class="input" req="true" label="Assunto">
+		<option value="">Selecione o Assunto</option>
+		<option value="Dúvidas">Dúvidas</option>
+		<option value="Elogios">Elogios</option>
+		<option value="Reclamações">Reclamações</option>
+		<option value="Sugestões">Sugestões</option>
+		<option value="Outros">Outros</option>
+
+</select>
+
+</li>
+
+<li>
+
+		<label>Nome:</label>
+		<input name="Nome" type="text" class="input" id="Nome" style="width:250px;" req="true" label="Nome"/>
+		<input type="hidden" name="area" id="area" value="contato" />                                
+		<label style="clear:none;" class="secundario">Fone:</label>
+		<input name="Telefone" type="text" class="input" id="Telefone" style="width:250px;" tipo="telefone"/>
+
+</li>
+
+<li>
+
+			<label>E-mail:</label>
+			<input name="Email" type="text" class="input" id="Email" style="width:250px;" req="true" tipo="email" label="E-mail"/>
+			</li>
+			<li>
+			<label>Mensagem:</label>
+			<textarea name="Mensagem" cols="90" rows="7" class="input" id="Mensagem" req="true" label="Mensagem" style="width:250px;"></textarea>
+		</li>
+		<li>
+		<label>&nbsp;</label>
+		<button type="submit" name="btnEnviar" class="botao">Enviar</button>
+		        </li>
+		    </ul>
+		    </form><!-- final do conteúdo -->  
+
+<div id="rodape">
+	<h4 class="centralizar">Todos os direito reservados</h4>
+</div>
+
+</div>
+
+</body>
+</html>
